@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Righteous&family=Roboto:ital,wght@0,300;0,400;1,100&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg,rgb(192, 137, 36) , rgb(180, 42, 42));
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg,rgb(192, 137, 36) , rgb(180, 42, 42));
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-links  {
+    background-color: rgba(255, 165, 0, 0.5); 
+    width:100%;
+    position:fixed;
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    /* row-gap: 80px; */
+    /* padding: 20px 50px 600px; */
+    backdrop-filter: blur(10px); /* Adjust blur level as needed */
+    -webkit-backdrop-filter: blur(10px);
+    /* border: 2px solid red; */
+}
+
+.ul {
+    /* position:fixed; */
+    /* position:sticky; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13vw;
+flex-wrap: wrap;
+    padding: 2vw;
+    /* background-color: yellow; */
+    color: white;
+    font-weight: 0.5vw;
+
+
+
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul i{
+    margin-left: 150px;
+}
+.fanta img{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 40vw;
+    height: 60vh;
+    z-index: 2;
+    transition: all cubic-bezier(0.195, 1, 0.44, 1);
+}
+  .img-orange{
+    top: 13%;
+    left: 25%;
+    position: absolute;
+    width: 30vw;
+    height: 38vh;
+    z-index: 1;
+    transition: all cubic-bezier(0.195, 1, 0.44, 1);
+}
+.orange-feel{
+    position: absolute;
+    width: 25vw;
+    height: 30vh;
+    left: 50%;
+    top: 70%;
+    z-index: 2;
+    transition: all cubic-bezier(0.195, 1, 0.44, 1);
+}
+.leaf2{
+    transition: all cubic-bezier(0.195, 1, 0.44, 1);
+}
+.fanta-text h1{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-weight: 800;
+    font-size: 25vw;
+    color: #fff;
+}
+.leaf img {
+    position: absolute;
+    width: 25vw;
+    height: 35vh;
+    left: 60%;
+    top: 20%;
+    transform: rotate(-2deg);
+}
+.leaf2 img{
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    transform: translate(30%,20%);
+    transform: rotate(70deg);
+    left: 10%;
+    top: 19%;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+   background-color:  rgba(120, 24, 24, 0.729);
+}
+.left-side{
+    flex-basis: 50%;
+    width: 50%;
+
+
+}
+.right-side{
+    flex-basis: 50%;
+    width: 50%;
+}
+ .container2 .left-side .blobmaker{
+    
+    width: 35vw;
+    height: 60vh;
+    color: rgb(153, 65, 65);
+    position: absolute;
+    left: 10%;
+    top: 140%;
+}
+.container2 h1,p{
+    color: white;
+    line-height: 2;
+    font-size: 
+    1rem;
+}
+.container2 h1{
+    font-size: 3rem;
+}
+.container2 p{
+    line-height: 1.3;
+}
+.container3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.container3 .box{
+    width: 25%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: white;
+    line-height: 1.7;
+}
+ .sprite{
+   
+    position: absolute;
+    margin: -3vw 10vw;
+    top: 275%;
+}
+.sprite .button1{
+    border-style: none;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    background: linear-gradient(rgb(192, 137, 36) , rgb(170, 107, 107));
+}
+.sprite-img{
+    position: absolute;
+    width: 35vw;
+    height: 55vh;
+    margin-left: -60px;
+    margin-top: 20px;
+    z-index: 2;
+}
+.orange-cut-img{
+margin-top: -5%;
+    position: absolute;
+    width: 25vw;
+    height: 27vh;
+    z-index: 0;
+}
+.box2 h1{
+    position: absolute;
+    top: 268%;
+    left: 47%;
+}
+.cola{
+    margin-top: 20px;
+    position: absolute;
+    left: 70%;
+    width: 22vw;
+    height: 55vh;
+}
+.box3 h1{
+    position: absolute;
+    top: 271%;
+    left: 77%;
+}
+ .box3 button{
+    position: absolute;
+    top:279% ;
+    left: 79%;
+    border-style: none;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    background: linear-gradient(rgb(192, 137, 36) , rgb(170, 107, 107));
+}
+.box2 button {
+    position: absolute;
+    top:277% ;
+    left: 47%;
+    border-style: none;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    background: linear-gradient(rgb(192, 137, 36) , rgb(170, 107, 107));
+}
